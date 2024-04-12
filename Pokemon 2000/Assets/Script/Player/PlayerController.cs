@@ -11,6 +11,12 @@ public class PlayerController : MonoBehaviour
     public bool isMoving;
     private Vector2 input;
 
+    private Animator animator;
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     private void Update()
     {
         if (!isMoving)
@@ -21,6 +27,9 @@ public class PlayerController : MonoBehaviour
             if (input.x != 0) input.y = 0;
             if (input != Vector2.zero)
             {
+                animator.SetFloat("moveX", input.x);
+                animator.SetFloat("moveY", input.y);
+
                 var targetPos = transform.position;
                 targetPos.x += input.x;
                 targetPos.y += input.y;
@@ -29,6 +38,8 @@ public class PlayerController : MonoBehaviour
                     StartCoroutine(Move(targetPos));
             }               
         }
+
+        animator.SetBool("isMoving", isMoving);
     }
     IEnumerator Move(Vector3 targetrPos)
     {
@@ -48,13 +59,11 @@ public class PlayerController : MonoBehaviour
 
     private bool IsWalkable(Vector3 targetPos)
     {
-       if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectLayer) != null)
+        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectLayer) != null)
         {
             return false;
         }
-        return true;
-
-        
+        return true;          
     }
 
     private void CheckForEncounters()
