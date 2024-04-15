@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 21c73668ee5eef5459b6ee1bb0491ee4
+guid: fbc1eaa5ca4dfb34893ec609f7727cde
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5078428124486395352
-    second: 33690_0
+      213: 575009225618100115
+    second: hud-box_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,14 +46,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteBorder: {x: 4, y: 4, z: 4, w: 4}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 33690_0
+      name: hud-box_0
       rect:
         serializedVersion: 2
-        x: 146
-        y: 244
-        width: 120
-        height: 48
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,71 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d56d59f8733a7640800000000000000
-      internalID: 5078428124486395352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 33690_1
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 192
-        width: 240
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49f2757cbbe3e9a429fa4eb280641b32
-      internalID: -1805802203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 33690_2
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 215
-        width: 104
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1af7b88a0bc98114fb98b96c886e5032
-      internalID: -1637098746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 33690_3
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 244
-        width: 240
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bad474ecbb1cbdd4286b17e586f1a162
-      internalID: -953789402
+      spriteID: 39f0a8b18d7daf700800000000000000
+      internalID: 575009225618100115
       vertices: []
       indices: 
       edges: []
@@ -200,17 +124,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      33690_0: 5078428124486395352
-      33690_1: -1805802203
-      33690_2: -1637098746
-      33690_3: -953789402
+      hud-box_0: 575009225618100115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
