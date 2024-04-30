@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 364b7b0ff94efa74289f259b412e7773, type: 3}
   m_Name: Charmander
   m_EditorClassIdentifier: 
-  name: Charmander
+  pokemonID: 0
+  pokenName: Charmander
+  gender: 0
   description: 
   frontSprite: {fileID: 21300000, guid: f22c049c86e43b24bab9d9a58af34481, type: 3}
   backSprite: {fileID: 21300000, guid: 72efadea5b1638b4692c3576d080f640, type: 3}
